@@ -8,7 +8,8 @@ All analysis runs on your device. Recordings stay in memory only for instant rep
 
 It needs no build step or dependencies. Browsers only allow microphone access on `https://` or `localhost`.
 
-- **Online:** serve this folder from any static host, such as GitHub Pages.
+- **Netlify:** connect the GitHub repo. `netlify.toml` at the repo root publishes this folder, with no build step, and shows the app at the site's root address.
+- **Other static hosts:** serve this folder and open `alto.html`.
 - **Locally:** run `npx serve` here and open `alto.html` at the address it prints.
 - **On a phone:** open the online address, then use "Add to Home Screen".
 
